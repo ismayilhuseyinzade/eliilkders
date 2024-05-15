@@ -1,0 +1,26 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+#popularItems{
+    padding: 80px 0;
+}
+.innerItem{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.card{
+    text-align: center;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.newArrivals{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.newArrivals .container{
+    width: 90%;
+    display: flex;
+    align-items: flex-start ;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.newArrivals .container h1{
+    font-family:"Josefin Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color:
+    rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.newArrivals .container .arrivalsCards{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.newArrivals .container .arrivalsCards .arrivalsCard{
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.newArrivals .container .arrivalsCards .arrivalsCard img{
+    width: 100%;
+}
+.newArrivals .container .arrivalsCards .arrivalsCard 
+h3{
+    font-family:"Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color:
+    rgb(68, 68, 68);
+}
+.newArrivals .container .arrivalsCards .arrivalsCard  span{
+    font-family:"Josefin Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color:
+    rgb(255, 32, 32);
+}
+@media screen and (min-width:300px) and (max-width:576px) {
+    .newArrivals{
+        width: 100%;
+        display: flex;
+        align-items: center ;
+        justify-content: center;
+    }
+    .newArrivals .container{
+        width: 90%;
+        display: flex;
+        align-items: flex-start ;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 40px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .newArrivals .container h1{
+        font-family:"Josefin Sans";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        color:
+        rgb(0, 0, 0);
+        margin-top: 30px;
+    }
+    .newArrivals .container .arrivalsCards{
+        width: 100%;
+        display: flex;
+        align-items: center ;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .newArrivals .container .arrivalsCards .arrivalsCard{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .newArrivals .container .arrivalsCards .arrivalsCard img{
+        width: 100%;
+    }
+    .newArrivals .container .arrivalsCards .arrivalsCard 
+    h3{
+        font-family:"Josefin Sans";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        color:
+        rgb(68, 68, 68);
+    }
+    .newArrivals .container .arrivalsCards .arrivalsCard  span{
+        font-family:"Josefin Sans";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        color:
+        rgb(255, 32, 32);
+    }
+    
+}
+
+
+
+
+
+
